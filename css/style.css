@@ -156,6 +156,13 @@ html,body{
     color: #F3F3F3;
     padding: 0 102px;
 }
+.accordion-item{
+    background-color: #F3F3F3;
+}
+.accordion-header button{
+    border-top: 1px solid #Fafafa;
+    background-color: #F3F3F3;
+}
 /* =================Navbar part start Here============== */
 /* =================Navbar part End Here============== */
 /* =================Navbar part start Here============== */
