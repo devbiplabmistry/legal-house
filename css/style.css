@@ -81,6 +81,7 @@ html,body{
    
 }
 /* =================Banner part End Here============== */
+/* =================Law practice part start Here============== */
 .common-header h3{
     font-family: 'EB Garamond', serif;
     font-weight: 800;
@@ -94,7 +95,7 @@ html,body{
     color: #707070;
     padding: 0 208px;
     line-height: 26px;
-
+    
 }
 
 .practice-item p{
@@ -136,6 +137,8 @@ html,body{
     height: 100%;
     background-color: rgba(17, 17, 17, 0.8);
 }
+/* =================Law practice part End Here============== */
+/* =================clients part start Here============== */
 .client-img{
     width: 70px;
     height: 70px;
@@ -156,6 +159,8 @@ html,body{
     color: #F3F3F3;
     padding: 0 102px;
 }
+/* =================clients part End Here============== */
+/* =================FAQ part start Here============== */
 .accordion-item{
     background-color: #F3F3F3;
 }
@@ -163,33 +168,6 @@ html,body{
     border-top: 1px solid #Fafafa;
     background-color: #F3F3F3;
 }
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
+/* =================FAQ part End Here============== */
+
+
