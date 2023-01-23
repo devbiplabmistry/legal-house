@@ -17,6 +17,9 @@ h1,h2,h3,h4,h5,h6,p{
 a{
     text-decoration: none;
 }
+html,body{
+    overflow-x: hidden;
+}
 /* ================common css End Here================= */
 /* =================Navbar part start Here============== */
 .navbar {
@@ -46,17 +49,18 @@ a{
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
 }
 .banner-contain h1{
     font-family: 'Poppins', sans-serif;
     line-height: 85px;
-    padding: 0 310px;
+    padding: 0 215px;
 }
 .banner-contain p{
     font-family: 'Poppins', sans-serif;
     line-height:26px;
     color: #E7E7E7;
-    padding: 0 180px;
+    padding: 0 10px;
 }
 .banner-contain input{
     font-family: 'Poppins', sans-serif;
@@ -75,9 +79,56 @@ a{
    background-color: #B68C5A;
    border-radius: 8px;
    
-   
 }
 /* =================Banner part End Here============== */
+.common-header h3{
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #414040;
+}
+.common-header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    padding: 0 208px;
+    line-height: 26px;
+
+}
+
+.practice-item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 30px; 
+}
+.practice-item {
+    transition: all linear .3s;
+}
+.practice-item:hover .card{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+.practice-item img{
+    width: 72px;
+    margin: 0 auto;
+}
+.font-icon i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #B68C5A;
+    line-height: 32px;
+}
+.legal-practice-area-wrapper{
+    display: grid;
+    grid-template-columns: 3;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
 /* =================Navbar part start Here============== */
 /* =================Navbar part End Here============== */
 /* =================Navbar part start Here============== */
