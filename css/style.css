@@ -1,0 +1,71 @@
+/* ================common css start Here================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+/* ================common css End Here================= */
+/* =================Navbar part start Here============== */
+.navbar {
+    padding-top: 0;
+    padding-bottom:0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:0;
+    padding-left: 0;
+}
+.nav-item .nav-link{
+    font-family:'Poppins', sans-serif;
+    color:#707070;
+}
+.button{
+    font-family:'Poppins', sans-serif;
+    background-color: #B68C5A;
+    padding: 18px 30px;
+}
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
+/* =================Navbar part start Here============== */
+/* =================Navbar part End Here============== */
