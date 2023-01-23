@@ -37,8 +37,47 @@ a{
     padding: 18px 30px;
 }
 /* =================Navbar part End Here============== */
-/* =================Navbar part start Here============== */
-/* =================Navbar part End Here============== */
+
+/* =================Banner part start Here============== */
+.banner-image{
+    background: url('../images/banner.png');
+    padding-top: 104px;
+    padding-bottom: 104px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-contain h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 85px;
+    padding: 0 310px;
+}
+.banner-contain p{
+    font-family: 'Poppins', sans-serif;
+    line-height:26px;
+    color: #E7E7E7;
+    padding: 0 180px;
+}
+.banner-contain input{
+    font-family: 'Poppins', sans-serif;
+    line-height:26px;
+    color: #A0A0A0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 300px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.banner-contain button{
+    font-family: 'Poppins', sans-serif;
+   padding: 15px 40px;
+   background-color: #B68C5A;
+   border-radius: 8px;
+   
+   
+}
+/* =================Banner part End Here============== */
 /* =================Navbar part start Here============== */
 /* =================Navbar part End Here============== */
 /* =================Navbar part start Here============== */
