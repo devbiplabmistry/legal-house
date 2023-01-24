@@ -1,3 +1,62 @@
+/* small device start  */
+@media (min-width:576px) and (max-width:767px){
+    .offcanvas-body {
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-right: 0 !important;
+    }
+
+    .button {
+        width: 75%;
+    }
+        /* banner part  start here  */
+        .banner-contain h1 {
+            padding: 0 128px;
+        }
+    
+        .banner-contain p {
+            padding: 0 93px;
+        }
+        .common-header p {
+             padding: 0; 
+        }
+     /* banner part  End Here */
+     
+    .practice-item {
+        margin-bottom: 20px;
+    }
+
+    .inner-client p {
+        padding: 0px;
+    }
+
+    .left-items p {
+        padding: 0;
+    }
+
+    .left-items h5,
+    p {
+        padding: 0;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+}
+
+
+/* small device End */
+
+
+
+
+
+
+
 /* xs device start Here */
 /* navbar part start here */
 @media (max-width:575px) {
@@ -16,8 +75,6 @@
 
     /* navbar part End Here */
     /* banner part  start here  */
-
-    /* banner part  End Here */
     .banner-contain h1 {
         padding: 0 20px;
     }
@@ -29,7 +86,7 @@
     .banner-contain input {
         padding-right: 120px;
     }
-
+ /* banner part  End Here */
     .common-header p {
         padding: 0;
     }
