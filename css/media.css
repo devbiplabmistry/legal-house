@@ -1,0 +1,64 @@
+/* xs device start Here */
+/* navbar part start here */
+@media (max-width:575px) {
+    .offcanvas-body {
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-right: 0 !important;
+    }
+
+    .button {
+        width: 75%;
+    }
+
+    /* navbar part End Here */
+    /* banner part  start here  */
+
+    /* banner part  End Here */
+    .banner-contain h1 {
+        padding: 0 20px;
+    }
+
+    .banner-contain p {
+        padding: 0 0px;
+    }
+
+    .banner-contain input {
+        padding-right: 120px;
+    }
+
+    .common-header p {
+        padding: 0;
+    }
+
+    .practice-item {
+        margin-bottom: 20px;
+    }
+
+    .inner-client p {
+        padding: 0px;
+    }
+
+    .left-items p {
+        padding: 0;
+    }
+
+    .left-items h5,
+    p {
+        padding: 0;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    #btn2 {
+        width: 540px;
+    }
+
+    /* xs device End Here */
+
+}

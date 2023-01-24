@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/639ec19282.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -51,6 +52,47 @@
                     <a href="#" class="rounded-3 ms-5 button bg-warning text-white">Free Consultation</a>
                 </ul>
             </div>
+            <!-- mobile menu start -->
+            <button class="btn btn-primary d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start d-block d-lg-none" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-5">
+                                <a class="nav-link active fw-normal fs-5 pe-0 ps-0 text-muted" aria-current="page"
+                                    href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Services <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Cases <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Blog <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Contact Us <i
+                                        class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <a href="#" class="rounded-3 ms-5 button bg-warning text-white">Free Consultation</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile menu End -->
         </div>
     </nav>
     <!-- Navbar part End -->
@@ -62,11 +104,11 @@
                     <div class="d-flex justify-content-center align-items-center text-center">
                         <div class="banner-contain mx-auto">
                             <h1 class="fw-bolder text-white lh-lg">We Provide Effective Legal Solutions</h1>
-                            <p class="fw-normal fs-5 lh-sm text-muted">There are many variations of passages of Lorem
+                            <p class="fw-normal fs-6 lh-sm text-muted">There are many variations of passages of Lorem
                                 Ipsum available,
                                 but the majority have suffered alteration in some form, by injected humour.</p>
                             <input type="text" placeholder="Search your services"
-                                class="fw-normal fs-5 mt-5 text-muted lh-sm border-1 rounded-3">
+                                class="fw-normal d-none d-md-block fs-5 mt-5 text-muted lh-sm border-1 rounded-3">
                             <button
                                 class="fw-bolder text-white d-inline-block ms-3 mt-5 border-0 rounded-3 bg-warning">Search</button>
                         </div>
@@ -91,7 +133,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 pe-0">
+                <div class="col-lg-4 pe-md-0 ">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/business.png" class="card-img-top mt-5 text-center" alt="business">
@@ -110,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-0 pe-0">
+                <div class="col-lg-4 ps-md-0 pe-md-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/criminal.png" class="card-img-top mt-5 text-center" alt="criminal">
@@ -129,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-0">
+                <div class="col-lg-4 ps-md-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/child.png" class="card-img-top mt-5 text-center" alt="child">
@@ -150,7 +192,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 pe-0">
+                <div class="col-lg-4 pe-md-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/education.png" class="card-img-top mt-5 text-center" alt="education">
@@ -169,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-0 pe-0 ">
+                <div class="col-lg-4 ps-md-0 pe-md-0 ">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images//divorce.png" class="card-img-top mt-5 text-center" alt="divorce">
@@ -188,7 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-0">
+                <div class="col-lg-4 ps-md-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/tax.png" class="card-img-top mt-5 text-center" alt="tax">
@@ -243,8 +285,9 @@
                                 </div>
                                 <div class="inner-client">
                                     <h3 class="text-white mt-3 font-bold lh-base">Awlad Hossain</h3>
-                                    <p class="mt-2 mb-5 fs-6">UIX Designer</p>
-                                    <p class="fs-6 lh-base">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    <p class="mt-2 mb-md-5 mb-1 fs-6">UIX Designer</p>
+                                    <p class="fs-6 lh-base d-none d-md-block">Contrary to popular belief, Lorem Ipsum is
+                                        not simply random
                                         text. It has roots
                                         in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.
@@ -264,8 +307,9 @@
                                 </div>
                                 <div class="inner-client">
                                     <h3 class="text-white mt-3">Awlad Hossain</h3>
-                                    <p class="mt-2 mb-5">UIX Designer</p>
-                                    <p class="lh-base">Contrary to popular belief, Lorem Ipsum is not simply random
+                                    <p class="mt-2 mb-md-5 mb-1">UIX Designer</p>
+                                    <p class="fs-6 lh-base d-none d-md-block">Contrary to popular belief, Lorem Ipsum is
+                                        not simply random
                                         text. It has roots
                                         in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.
@@ -285,8 +329,9 @@
                                 </div>
                                 <div class="inner-client">
                                     <h3 class="text-white mt-3">Awlad Hossain</h3>
-                                    <p class="mt-2 mb-5">UIX Designer</p>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                    <p class="mt-2 mb-lg-5 mb-1">UIX Designer</p>
+                                    <p class="fs-6 lh-base d-none d-md-block">Contrary to popular belief, Lorem Ipsum is
+                                        not simply random text. It has roots
                                         in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.
                                         Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
@@ -483,17 +528,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-5 mt-md-0">
                     <div class="right-items d-flex flex-column">
-                        <input type="text" placeholder="Your Name" class="p-2 mb-3 fs-6 fw-normal"
-                            style="width: 570px;">
-                        <input type="text" placeholder="Your Email" class="p-2 mb-3 fs-6 fw-normal"
-                            style="width: 570px;">
-                        <input type="text" placeholder="Subject" class="p-2 mb-3 fs-6 fw-normal" style="width: 570px;">
+                        <input type="text" placeholder="Your Name" class="p-2 mb-3 fs-6 fw-normal">
+                        <input type="text" placeholder="Your Email" class="p-2 mb-3 fs-6 fw-normal">
+                        <input type="text" placeholder="Subject" class="p-2 mb-3 fs-6 fw-normal">
                         <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"
-                            class="p-2 mb-3 fs-6 fw-normal" style="width: 570px;"></textarea>
-                        <button class="p-2 mb-5 fs-6 fw-semibold bg-secondary-subtletext-light-emphasis"
-                            style="width: 570px;">Send Message</button>
+                            class="p-2 mb-3 fs-6 fw-normal"></textarea>
+                        <button class="p-2 mb-5 fs-6 fw-semibold bg-secondary-subtletext-light-emphasis ">Send
+                            Message</button>
                     </div>
                 </div>
             </div>
@@ -504,8 +547,8 @@
         <div class="bg-dark pb-5 pt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 ps-0 pe-0">
-                        <div class="footer-item ">
+                    <div class="col-lg-3 ps-md0 pe-md-0">
+                        <div class="footer-item text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4"><i class="fa-solid fa-gavel"></i> Justice</h4>
                             <p class="fw-normal fs-6 text-muted lh-sm">There are many variations of passages of Lorem
                                 Ipsum
@@ -513,8 +556,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-0">
-                        <div class="footer-item ">
+                    <div class="col-lg-3 ps-md-0 mt-5 mt-md-0">
+                        <div class="footer-item text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4">Usefull Link
                             </h4>
                             <a href="#">
@@ -534,8 +577,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-0 pe-0">
-                        <div class="footer-item ">
+                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-md-0">
+                        <div class="footer-item text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4 fs-6 lh-sm"> Contact Now
                             </h4>
                             <p class="fw-normal fs-6 text-muted fs-6 lh-sm">555 4th 5t NW, Washington</p>
@@ -549,15 +592,17 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-0 pe-0">
-                        <div class="footer-item text-start">
+                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-md-0">
+                        <div class="footer-item text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4">Subscribe</h4>
                             <p class="fw-normal fs-6 text-muted fs-6 lh-sm">Subscribe for our latest & Articles. We
                                 Won’t Give You
                                 Spam Mails</p>
-                            <input type="text" placeholder="Email address"
-                                class="p-2 ms-4 mt-4 fw-normal fs-6 position-relative">
-                            <i class="fa-solid fa-paper-plane text-white plane text-center fs-4 position-relative"></i>
+
+                            <input style="width: 100%;" type="text" placeholder="Email address"
+                                class="p-2 ms-md-4 mt-4 fw-normal fs-6 position-relative">
+                            <i
+                                class="fa-solid fa-paper-plane text-white d-none d-md-block plane text-center fs-4 position-relative"></i>
                         </div>
                     </div>
                 </div>
