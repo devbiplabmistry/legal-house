@@ -1,135 +1,152 @@
 /* ================common css start Here================= */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-img{
+
+img {
     vertical-align: middle;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 0.8;
     margin-bottom: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-html,body{
+
+html,
+body {
     overflow-x: hidden;
 }
+
 /* ================common css End Here================= */
 /* =================Navbar part start Here============== */
-.navbar {
-    padding-top: 0;
-    padding-bottom:0;
+.nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right:0;
-    padding-left: 0;
-}
-.nav-item .nav-link{
-    font-family:'Poppins', sans-serif;
-    color:#707070;
-}
-.button{
-    font-family:'Poppins', sans-serif;
-    background-color: #B68C5A;
+
+.button {
+    font-family: 'Poppins', sans-serif;
     padding: 18px 30px;
 }
+
 /* =================Navbar part End Here============== */
 
 /* =================Banner part start Here============== */
-.banner-image{
+.banner-image {
     background: url('../images/banner.png');
     padding-top: 104px;
     padding-bottom: 104px;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
 }
-.banner-contain h1{
+
+.banner-contain h1 {
     font-family: 'Poppins', sans-serif;
-    line-height: 85px;
     padding: 0 215px;
 }
-.banner-contain p{
+
+.banner-contain p {
     font-family: 'Poppins', sans-serif;
-    line-height:26px;
-    color: #E7E7E7;
     padding: 0 10px;
 }
-.banner-contain input{
+
+.banner-contain input {
     font-family: 'Poppins', sans-serif;
-    line-height:26px;
-    color: #A0A0A0;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 300px;
-    border: 1px solid #fff;
-    border-radius: 8px;
-}
-.banner-contain button{
-    font-family: 'Poppins', sans-serif;
-   padding: 15px 40px;
-   background-color: #B68C5A;
-   border-radius: 8px;
-   
-}
-/* =================Banner part End Here============== */
-/* =================Law practice part start Here============== */
-.common-header h3{
-    font-family: 'EB Garamond', serif;
-    font-weight: 800;
-    font-size: 40px;
-    color: #414040;
-}
-.common-header p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #707070;
-    padding: 0 208px;
-    line-height: 26px;
-    
 }
 
-.practice-item p{
+.banner-contain button {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    padding: 0 30px; 
+    padding: 15px 40px;
 }
+
+/* =================Banner part End Here============== */
+/* =================Law practice part start Here============== */
+.common-header h3 {
+    font-family: 'EB Garamond', serif;
+    color: #414040;
+}
+
+.common-header p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    padding: 0 208px;
+}
+
+.practice-item p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+}
+
+.footer-item p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+}
+
+.left-items p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+    color: #707070;
+}
+
+.left-items h5 {
+    font-family: 'EB Garamond', serif;
+    color: #414040;
+    padding: 0 30px;
+}
+
 .practice-item {
     transition: all linear .3s;
 }
-.practice-item:hover .card{
+
+.practice-item:hover .card {
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
-.practice-item img{
+
+.practice-item img {
     width: 72px;
     margin: 0 auto;
 }
-.font-icon i{
+
+.font-icon i {
     width: 32px;
     height: 32px;
-    border-radius: 50%;
     background-color: #B68C5A;
     line-height: 32px;
 }
-.legal-practice-area-wrapper{
+
+.legal-practice-area-wrapper {
     display: grid;
     grid-template-columns: 3;
 }
-.card img{
+
+.card img {
     width: 70px;
     height: 70px;
 }
-.back-graound-overly{
+
+.back-graound-overly {
     position: absolute;
     top: 0;
     left: 0;
@@ -137,37 +154,61 @@ html,body{
     height: 100%;
     background-color: rgba(17, 17, 17, 0.8);
 }
+
 /* =================Law practice part End Here============== */
 /* =================clients part start Here============== */
-.client-img{
+.client-img {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
     line-height: 70px;
     text-align: center;
 }
-.inner-client h3{
+
+.inner-client h3 {
     font-family: 'EB Garamond', serif;
-    font-weight: 800;
-    font-size: 24px;
     color: #414040;
 }
-.inner-client p{
+
+.inner-client p {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
     color: #F3F3F3;
     padding: 0 102px;
 }
+
 /* =================clients part End Here============== */
 /* =================FAQ part start Here============== */
-.accordion-item{
+.accordion-item {
     background-color: #F3F3F3;
 }
-.accordion-header button{
+
+.accordion-header button {
     border-top: 1px solid #Fafafa;
     background-color: #F3F3F3;
 }
+
+.right-items input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-item h4 {
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-item p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-item input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.plane {
+    width: 40px;
+    height: 42px;
+    line-height: 40px;
+    top: -43px;
+    right: -205px;
+    background-color: #B68C5A;
+}
+
 /* =================FAQ part End Here============== */
-
-
