@@ -1,5 +1,43 @@
+/* medium device start  */
+@media (min-width:992px) and (max-width:1199px) {
+    .footer-item p {
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .offcanvas-body {
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-right: 0 !important;
+    }
+
+    .button {
+        width: 85%;
+    }
+
+
+    .common-header p {
+        padding: 0;
+    }
+
+    .banner-contain h1 {
+        padding: 0 209px;
+    }
+
+    .banner-contain input {
+        margin-left: 40px;
+    }
+
+
+
+}
+
 /* small device start  */
-@media (min-width:576px) and (max-width:767px){
+@media (min-width:576px) and (max-width:767px) {
     .offcanvas-body {
         padding: 0;
         text-align: center;
@@ -12,19 +50,19 @@
     .button {
         width: 75%;
     }
-        /* banner part  start here  */
-        .banner-contain h1 {
-            padding: 0 128px;
-        }
-    
-        .banner-contain p {
-            padding: 0 93px;
-        }
-        .common-header p {
-             padding: 0; 
-        }
-     /* banner part  End Here */
-     
+
+    .banner-contain h1 {
+        padding: 0 128px;
+    }
+
+    .banner-contain p {
+        padding: 0 93px;
+    }
+
+    .common-header p {
+        padding: 0;
+    }
+
     .practice-item {
         margin-bottom: 20px;
     }
@@ -45,20 +83,8 @@
     .card-body {
         padding: 0;
     }
-
 }
 
-
-/* small device End */
-
-
-
-
-
-
-
-/* xs device start Here */
-/* navbar part start here */
 @media (max-width:575px) {
     .offcanvas-body {
         padding: 0;
@@ -73,8 +99,6 @@
         width: 75%;
     }
 
-    /* navbar part End Here */
-    /* banner part  start here  */
     .banner-contain h1 {
         padding: 0 20px;
     }
@@ -86,7 +110,7 @@
     .banner-contain input {
         padding-right: 120px;
     }
- /* banner part  End Here */
+
     .common-header p {
         padding: 0;
     }
@@ -115,7 +139,4 @@
     #btn2 {
         width: 540px;
     }
-
-    /* xs device End Here */
-
 }

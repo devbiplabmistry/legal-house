@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navbar part start -->
-    <nav class="navbar navbar-expand-lg mt-3 mb-5 d-flex align-items-center pt-0 pb-0">
+    <nav class="navbar navbar-expand-lg mt-3 mb-5 d-flex align-items-center pt-0 pb-0 ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo2.png" alt="logo">
@@ -27,21 +27,21 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent ">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item me-5">
+                    <li class="nav-item me-3">
                         <a class="nav-link active fw-normal fs-5 pe-0 ps-0 text-muted" aria-current="page"
                             href="#">Home</a>
                     </li>
-                    <li class="nav-item me-5">
+                    <li class="nav-item me-3">
                         <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Services <i
                                 class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="nav-item me-5">
+                    <li class="nav-item me-3">
                         <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Cases <i
                                 class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <li class="nav-item me-5">
+                    <li class="nav-item me-3">
                         <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Blog <i
                                 class="fa-solid fa-angle-right"></i></a>
                     </li>
@@ -49,7 +49,30 @@
                         <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Contact Us <i
                                 class="fa-solid fa-angle-right"></i></a>
                     </li>
-                    <a href="#" class="rounded-3 ms-5 button bg-warning text-white">Free Consultation</a>
+                    <!-- Button trigger modal -->
+                    <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="rounded-3 ms-5 button btn btn-primary bg-warning text-white">Free Consultation</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Welcome to our Legal Support Website
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </ul>
             </div>
             <!-- mobile menu start -->
@@ -57,7 +80,6 @@
                 data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 <i class="fa-solid fa-bars"></i>
             </button>
-
             <div class="offcanvas offcanvas-start d-block d-lg-none" tabindex="-1" id="offcanvasExample"
                 aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
@@ -67,19 +89,19 @@
                 <div class="offcanvas-body">
                     <div>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item me-5">
+                            <li class="nav-item me-2 me-xl-5">
                                 <a class="nav-link active fw-normal fs-5 pe-0 ps-0 text-muted" aria-current="page"
                                     href="#">Home</a>
                             </li>
-                            <li class="nav-item me-5">
+                            <li class="nav-item me-2 me-xl-5">
                                 <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Services <i
                                         class="fa-solid fa-angle-right"></i></a>
                             </li>
-                            <li class="nav-item me-5">
+                            <li class="nav-item me-2 me-xl-5">
                                 <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Cases <i
                                         class="fa-solid fa-angle-right"></i></a>
                             </li>
-                            <li class="nav-item me-5">
+                            <li class="nav-item me-2 me-xl-5">
                                 <a class="nav-link fw-normal fw-normal fs-5 pe-0 ps-0 text-muted" href="#">Blog <i
                                         class="fa-solid fa-angle-right"></i></a>
                             </li>
@@ -152,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-md-0 pe-md-0">
+                <div class="col-lg-4 ps-md-0 pe-md-0 mt-5 mt-lg-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/criminal.png" class="card-img-top mt-5 text-center" alt="criminal">
@@ -171,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-md-0">
+                <div class="col-lg-4 ps-md-0 mt-5 mt-lg-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/child.png" class="card-img-top mt-5 text-center" alt="child">
@@ -192,7 +214,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 pe-md-0">
+                <div class="col-lg-4 pe-md-0 mt-5 mt-lg-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/education.png" class="card-img-top mt-5 text-center" alt="education">
@@ -211,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-md-0 pe-md-0 ">
+                <div class="col-lg-4 ps-md-0 pe-md-0 mt-5 mt-lg-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images//divorce.png" class="card-img-top mt-5 text-center" alt="divorce">
@@ -230,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ps-md-0">
+                <div class="col-lg-4 ps-md-0 mt-5 mt-lg-0">
                     <div class="practice-item">
                         <div class="card text-center rounded-0">
                             <img src="images/tax.png" class="card-img-top mt-5 text-center" alt="tax">
@@ -495,7 +517,7 @@
                         </div>
                     </div>
                     <div class="left-items" style="width:50%;">
-                        <div class="card bg-light text-center text-md-start">
+                        <div class="card bg-light text-center mt-lg-start">
                             <img src="images/call.png" class="card-img-top mx-auto d-inline-block mt-5" alt="location"
                                 style="width:40px; height:40px;">
                             <div class="card-body">
@@ -506,7 +528,7 @@
                         </div>
                     </div>
                     <div class="left-items" style="width:50%;">
-                        <div class="card bg-light text-center text-md-start">
+                        <div class="card bg-light text-center mt-lg-start">
                             <img src="images/email.png" class="card-img-top mx-auto d-inline-block mt-5" alt="location"
                                 style="width:40px; height:40px;">
                             <div class="card-body">
@@ -517,7 +539,7 @@
                         </div>
                     </div>
                     <div class="left-items" style="width:50%;">
-                        <div class="card bg-light text-center text-md-start">
+                        <div class="card bg-light text-center mt-lg-start">
                             <img src="images/time.png" class="card-img-top mx-auto d-inline-block mt-5" alt="location"
                                 style="width:40px; height:40px;">
                             <div class="card-body">
@@ -528,7 +550,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-5 mt-md-0">
+                <div class="col-lg-6 mt-5 mt-lg-0">
                     <div class="right-items d-flex flex-column">
                         <input type="text" placeholder="Your Name" class="p-2 mb-3 fs-6 fw-normal">
                         <input type="text" placeholder="Your Email" class="p-2 mb-3 fs-6 fw-normal">
@@ -543,12 +565,12 @@
     </section>
     <!-- contact us part End -->
     <!-- footer part start  -->
-    <footer>
-        <div class="bg-dark pb-5 pt-5">
+    <footer class="mt-5">
+        <div class="bg-dark pb-5  pt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 ps-md0 pe-md-0">
-                        <div class="footer-item text-center text-md-start">
+                        <div class="footer-item text-center mt-lg-start">
                             <h4 class="fw-bolder fs-3 text-white mb-4"><i class="fa-solid fa-gavel"></i> Justice</h4>
                             <p class="fw-normal fs-6 text-muted lh-sm">There are many variations of passages of Lorem
                                 Ipsum
@@ -556,8 +578,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-md-0 mt-5 mt-md-0">
-                        <div class="footer-item text-center text-md-start">
+                    <div class="col-lg-3 ps-md-0 mt-5 mt-lg-0">
+                        <div class="footer-item text-center mt-lg-start">
                             <h4 class="fw-bolder fs-3 text-white mb-4">Usefull Link
                             </h4>
                             <a href="#">
@@ -577,8 +599,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-md-0">
-                        <div class="footer-item text-md-start text-center">
+                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-lg-0">
+                        <div class="footer-item mt-lg-start text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4 fs-6 lh-sm"> Contact Now
                             </h4>
                             <p class="fw-normal fs-6 text-muted fs-6 lh-sm">555 4th 5t NW, Washington</p>
@@ -592,25 +614,42 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-md-0">
-                        <div class="footer-item text-md-start text-center">
+                    <div class="col-lg-3 ps-md-0 pe-md-0 mt-5 mt-lg-0">
+                        <div class="footer-item mt-lg-start text-center">
                             <h4 class="fw-bolder fs-3 text-white mb-4">Subscribe</h4>
                             <p class="fw-normal fs-6 text-muted fs-6 lh-sm">Subscribe for our latest & Articles. We
                                 Won’t Give You
                                 Spam Mails</p>
 
                             <input style="width: 100%;" type="text" placeholder="Email address"
-                                class="p-2 ms-md-4 mt-4 fw-normal fs-6 position-relative">
+                                class="p-2 ms-xl-4 mt-4 fw-normal fs-6 position-relative">
                             <i
                                 class="fa-solid fa-paper-plane text-white d-none d-md-block plane text-center fs-4 position-relative"></i>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </footer>
     <!-- footer part End   -->
+    <!-- Extra-section  -->
+    <!-- copy-right part start  -->
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div class="copyright-content text-center">
+                        <p>
+                            <small class="fw-normal fs-6 text-muted  lh-sm copy"> &#169;2027 - All rights
+                                reserved.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- copy-right part End -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
